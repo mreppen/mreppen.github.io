@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* MAIN LAYOUT */
+
+* {
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+body {
+    max-width: 62ch;
+    padding: 0.5ch;
+    margin: 0 auto;
+}
+hr {
+    border-top: 1px solid;
+    margin: 0 0;
+}
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.25em 0 0 0;
+}
+.logo {
+    max-height: 1cm;
+}
+header {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+#title, nav, #content, footer {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+#content {
+    border: 1px solid;
+    border-radius: 3px;
+    line-height: 165%;
+}
+nav {
+    word-spacing: 1.4ch;
+}
+nav a {
+    font-size: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, table {
+    margin-top: 0.33em;
+}
+#content > :first-child {
+    margin-top: 0.5rem;
+}
+#content > :last-child {
+    margin-bottom: 0.5rem;
+}
+
+
+/* COLORS */
+
+a, nav a:visited, .nav_link:visited {
+    color: #28d;
+}
+a:visited {
+    color: #34a;
+}
+
+
+/* DESCRIPTION LISTS */
+dl {
+    padding-left: 1.5em;
+}
+dt {
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+
+@media only print {
+    body, #content {
+        background-color: white;
+        border: none;
+    }
+    header hr {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+}
+
