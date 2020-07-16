@@ -10,3 +10,4 @@ s|R. N. Gantner|<a href="https://scholar.google.com/citations?user=cJ6KEngAAAAJ"
 s|A. Altarovici|<a href="https://scholar.google.com/citations?user=X-I1JTgAAAAJ">\0</a>|
 s|L. Tangpi|<a href="https://ludovic.princeton.edu/">\0</a>|
 s|J. Backhoff Veraguas|<a href="https://sites.google.com/site/juliobackhoff/home">\0</a>|
+s|S. Geng|<a href="https://www.cs.princeton.edu/~sgeng/">\0</a>|
