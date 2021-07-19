@@ -1,7 +1,7 @@
 s|(H. )?M. Soner|<a href="https://scholar.princeton.edu/soner/">\0</a>|
 s|J. Muhle-Karbe|<a href="https://www.imperial.ac.uk/people/j.muhle-karbe">\0</a>|
 s|J. Keppo|<a href="https://jussikeppo.com/">\0</a>|
-s|M. Burzoni|<a href="https://www.maths.ox.ac.uk/people/matteo.burzoni">\0</a>|
+s|M. Burzoni|<a href="https://sites.unimi.it/burzonim/">\0</a>|
 s|(J.-C. )?Rochet|<a href="https://www.tse-fr.eu/people/jean-charles-rochet">\0</a>|
 s|R. Sircar|<a href="https://www.princeton.edu/~sircar/">\0</a>|
 s|D. Sornette|<a href="https://er.ethz.ch/about-us/people/sornette.html">\0</a>|
