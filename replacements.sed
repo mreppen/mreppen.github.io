@@ -1,3 +1,4 @@
+s|((A)?)(. )?M. Reppen|<span class="I">\1MR</span>|
 s|(H. )?M. Soner|<a href="https://scholar.princeton.edu/soner/">\0</a>|
 s|J. Muhle-Karbe|<a href="https://www.imperial.ac.uk/people/j.muhle-karbe">\0</a>|
 s|J. Keppo|<a href="https://jussikeppo.com/">\0</a>|

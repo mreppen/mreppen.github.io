@@ -103,13 +103,37 @@ h1, h2, h3, h4, h5, h6, p, ul, li, dl, table {
 
 /* COLORS */
 
-a, nav a:visited, .nav_link:visited {
-    color: #28d;
-}
-a:visited {
-    color: #34a;
+a, nav a:visited {
+    color: #8b0000;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #F5003A;
+    text-decoration: underline;
+}
+
+.author a:link, .author a:visited {
+    color: black;
+}
+
+.author a:hover {
+    color: #F5003A;
+}
+
+.paperlink a:link, .paperlink a:visited {
+    text-decoration: underline;
+}
+
+.journal, .booktitle {
+    font-weight: bold;
+}
+
+.title {
+    quotes: '“' '”';
+    font-style: italic;
+    /*quotes: '' '';*/
+}
 
 /* LISTS */
 ol, ul, dl {
