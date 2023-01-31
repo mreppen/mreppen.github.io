@@ -16,3 +16,4 @@ s|A. Kakhbod|<a href="http://www.akakhbod.com/">\0</a>|
 s|T. Umar|<a href="https://sites.google.com/site/tarikumar/">\0</a>|
 s|H. Xing|<a href="https://sites.google.com/view/hao-xing/home">\0</a>|
 s|V. Tissot-Daguette|<a href="https://sites.google.com/view/valentintissot-daguette/home">\0</a>|
+s|K. Back|<a href="https://business.rice.edu/person/kerry-back">\0</a>|
