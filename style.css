@@ -130,7 +130,7 @@ a:hover {
 }
 
 .title {
-    quotes: '“' '”';
+    quotes: '“' '.”';
     font-style: italic;
     /*quotes: '' '';*/
 }
