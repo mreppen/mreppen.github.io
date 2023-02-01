@@ -6,6 +6,42 @@
     <meta name="google-site-verification" content="W__J4G6WzHY-cyJZ4B01j-AubhSRkgp7CPKXOhSqHA4" />
     <title>A. Max Reppen</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+    window.onload = function() {
+      document.querySelectorAll('a.bib').forEach(function(a) {
+        var bibNode = a
+        var wrapper = document.createElement('div');
+        wrapper.classList.add("tooltip");
+        bibNode.parentNode.insertBefore(wrapper, bibNode);
+        wrapper.appendChild(bibNode);
+
+        var tooltip = document.createElement('span');
+        tooltip.classList.add("tooltiptext");
+
+        a.onmouseout = function() {
+          tooltip.innerHTML = "Copy to clipboard";
+        };
+
+        a.onmouseout();
+        wrapper.appendChild(tooltip);
+
+        a.onclick = function() {
+          var url = this.href;
+          tooltip.innerHTML = "Loading..."
+          fetch(url).then( r => r.text() )
+            .then(function (text) {
+              navigator.clipboard.writeText(text);
+              tooltip.innerHTML = "Copied to clipboard ✓";
+            })
+            .catch(function (err) {
+              tooltip.innerHTML = "Failed to load resource";
+              window.location.href = url;
+            });
+          return false;
+        };
+      });
+    }
+    </script>
   </head>
 <body bgcolor="#FFFFFF">
 
