@@ -9,11 +9,10 @@
     <script>
     window.onload = function() {
       document.querySelectorAll('a.bib').forEach(function(a) {
-        var bibNode = a
         var wrapper = document.createElement('div');
         wrapper.classList.add("tooltip");
-        bibNode.parentNode.insertBefore(wrapper, bibNode);
-        wrapper.appendChild(bibNode);
+        a.parentNode.insertBefore(wrapper, a);
+        wrapper.appendChild(a);
 
         var tooltip = document.createElement('span');
         tooltip.visibility = "hidden";

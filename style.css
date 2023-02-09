@@ -41,6 +41,7 @@ body {
     max-width: 82ch;
     padding: 0.5ch;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 hr {
     border-top: 1px solid;
