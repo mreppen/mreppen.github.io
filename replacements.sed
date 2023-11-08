@@ -4,7 +4,7 @@ s|J. Muhle-Karbe|<a href="https://www.imperial.ac.uk/people/j.muhle-karbe">\0</a
 s|J. Keppo|<a href="https://jussikeppo.com/">\0</a>|
 s|M. Burzoni|<a href="https://sites.unimi.it/burzonim/">\0</a>|
 s|(J.-C. )?Rochet|<a href="https://www.tse-fr.eu/people/jean-charles-rochet">\0</a>|
-s|R. Sircar|<a href="https://www.princeton.edu/~sircar/">\0</a>|
+s|(K. )?R. Sircar|<a href="https://www.princeton.edu/~sircar/">\0</a>|
 s|D. Sornette|<a href="https://er.ethz.ch/about-us/people/sornette.html">\0</a>|
 s|S. Wheatley|<a href="https://scholar.google.com/citations?user=OQ35214AAAAJ">\0</a>|
 s|R. N. Gantner|<a href="https://scholar.google.com/citations?user=cJ6KEngAAAAJ">\0</a>|
