@@ -1,3 +1,9 @@
+SED ?= sed
+
+ifeq ($(shell uname), Darwin)
+	SED = gsed
+endif
+
 website: index replacements last_updated
 
 index:
@@ -8,10 +14,10 @@ replacements:
 	# This for loop instead of sed -i -E -f replacements.sed
 	# in order to fail if something is not matched
 	while read -r line; do \
-		if ! [[ $$(gsed --posix -i -E -e "$${line}w /dev/stdout" index.html) ]]; then \
+		if ! [[ $$($(SED) --posix -i -E -e "$${line}w /dev/stdout" index.html) ]]; then \
 			echo "Replacement $$line failed"; exit 1; \
 		fi \
 	done < replacements.sed
 
 last_updated:
-	gsed --posix -i -E 's|(Last update )[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}|\1'$$(date +"%Y-%m-%d")'|' index.html
+	$(SED) --posix -i -E 's|(Last update )[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}|\1'$$(date +"%Y-%m-%d")'|' index.html
