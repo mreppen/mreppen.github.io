@@ -17,3 +17,5 @@ s|T. Umar|<a href="https://sites.google.com/site/tarikumar/">\0</a>|
 s|H. Xing|<a href="https://sites.google.com/view/hao-xing/home">\0</a>|
 s|V. Tissot-Daguette|<a href="https://sites.google.com/view/valentintissot-daguette/home">\0</a>|
 s|K. Back|<a href="https://business.rice.edu/person/kerry-back">\0</a>|
+s|Y. Kitapbayev|<a href="https://sites.google.com/view/yerkin-kitapbayev/home">\0</a>|
+s|J. Detemple|<a href="https://www.bu.edu/questrom/profile/jerome-detemple/">\0</a>|
