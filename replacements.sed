@@ -20,6 +20,7 @@ s|K. Back|<a href="https://business.rice.edu/person/kerry-back">\0</a>|
 s|Y. Kitapbayev|<a href="https://sites.google.com/view/yerkin-kitapbayev/home">\0</a>|
 s|J. Detemple|<a href="https://www.bu.edu/questrom/profile/jerome-detemple/">\0</a>|
 s|O. Celebi|<a href="https://www.oguzhancelebi.com/">\0</a>|
-s|Junkee Jeon|<a href="https://junkeejeon.com/">\0</a>|
-s|Takwon Kim|<a href="https://sites.google.com/view/takwonkim">\0</a>|
-s|Jinwan Park|<a href="https://sites.google.com/view/jinwanpark">\0</a>|
+s|J. Jeon|<a href="https://junkeejeon.com/">\0</a>|
+s|T. Kim|<a href="https://sites.google.com/view/takwonkim">\0</a>|
+s|J. Park|<a href="https://sites.google.com/view/jinwanpark">\0</a>|
+#empty line needed
